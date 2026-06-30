@@ -1,0 +1,38 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Relatórios gerados
+reports_resultado/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Banco
+*.db
+
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Sistema
+.DS_Store
+Thumbs.db
