@@ -1,3 +1,24 @@
+<p align="center">
+  <img src="assets/cerberus_banner.png" alt="Cerberus AI Security Auditor" width="900">
+</p>
+
+<h1 align="center">🛡️ Cerberus</h1>
+
+<p align="center">
+Auditor Inteligente de Segurança para Projetos Desenvolvidos com IA
+</p>
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Semgrep](https://img.shields.io/badge/Semgrep-Enabled-green)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-Enabled-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+</p>
+
+
 # 🛡️ Cerberus — Auditor de Segurança para Repositórios
 
 O Cerberus é uma ferramenta de auditoria de segurança para repositórios de código. Ela executa varreduras estáticas, detecta segredos expostos, analisa dependências vulneráveis, calcula um score de risco e gera um relatório em Markdown — com análise complementar via IA local (Ollama).
@@ -174,11 +195,16 @@ Os pesos por severidade são: CRITICAL = 10, HIGH = 5, MEDIUM = 3, LOW = 1, INFO
 
 ## Próximos passos (CerberusV2)
 
-- [ ] Suporte a múltiplos formatos de saída (JSON, HTML, SARIF)
-- [ ] Interface de configuração via arquivo YAML/TOML
-- [ ] Filtros por severidade e por scanner
-- [ ] Integração com pipelines de CI/CD (GitHub Actions, GitLab CI)
-- [ ] Suporte a múltiplos repositórios em lote
-- [ ] Testes automatizados com cobertura de código
-- [ ] Fallback de IA via API remota quando Ollama não estiver disponível
-- [ ] Orquestração orientada a plugins para facilitar adição de novos scanners
+├── 🔒 Security Audit            ✅
+├── 📦 Dependency Audit          ✅
+├── 🤖 AI Security Review        ✅
+├── 📄 Smart Report              ✅
+├── 🖥️ Streamlit Dashboard       ✅
+│
+├── 🏗️ Architecture Analyzer
+├── 📚 README Generator
+├── 📊 Code Metrics
+├── 🧪 Test Coverage Analyzer
+├── ☁️ GitHub Actions Integration
+├── 📈 Historical Audits
+└── 🔌 Plugin Marketplace
