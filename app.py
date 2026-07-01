@@ -18,7 +18,7 @@ from ui.home import render_pagina
 
 def _configurar_pagina() -> None:
     st.set_page_config(
-        page_title="Cerberus — AI Security Auditor",
+        page_title="Cerberus — Farejador de vulnerabilidades",
         page_icon="🛡️",
         layout="wide",
         initial_sidebar_state="expanded",
